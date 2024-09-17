@@ -3,6 +3,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: cool-app-acr
+  annotations:
+    argocd/app-name: cool-app
   tags:
     - helm
 spec:
