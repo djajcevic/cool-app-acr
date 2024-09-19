@@ -13,5 +13,3 @@ spec:
   owner: demo-team
   dependsOn:
     - component:default/cool-app
-  consumesApis:
-    - api:default/petstore
