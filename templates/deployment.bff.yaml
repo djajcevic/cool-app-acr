@@ -39,7 +39,7 @@ spec:
             - secretRef:
                 name: cool-app-db
                 optional: true
-              prefix: DATABASE
+              prefix: DATABASE_
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
